@@ -1,0 +1,72 @@
+nav {
+	width: 60%;
+	border: #ddd 1px solid;
+	margin: 10px auto;
+	text-align: center;
+}
+
+nav ul {
+	text-align: right;
+}
+
+nav ul li {
+	display: inline;
+	padding: 0 10px;
+	border-right: #ddd 1px solid;
+}
+
+nav ul li:last-child {
+	border-right: none;
+}
+
+nav a {
+	text-decoration: none;
+	color: #555;
+	padding-bottom: 5px;
+}
+
+nav li.current{
+	border-bottom: 3px solid #92D050;
+}
+
+nav li:hover{
+	color: #E7DA66;
+	border-bottom: 3px solid #F0E475;
+}
+
+
+div#tabBoxes {
+	width: 60%; /*必要な幅に設定*/
+	margin: auto; /*ブラウザ中央に配置*/
+	margin-top: 20px;
+} /* 親ボックス */
+
+div.tabBoxes-header {
+	width: 100%; /*必要な幅に設定*/
+	margin-top: 20px;
+	overflow: auto;
+}
+
+div.tabBoxes-header div.tabBoxes-header-colorbox {
+	width: 1%;
+	height: 25px;
+	background-color: red;
+	float: left; /*左にフロート配置*/
+} /* ボックス左 */
+
+div.tabBoxes-header div.tabBoxes-header-titlebox {
+	width: 98%;
+	height: 25px;
+	background-color: #BDD7EE;
+	float: left;
+	padding-left: 5px;
+} /* ボックス右 */
+
+div.tabBoxes-content-sub table {
+	width: 60%;
+	padding-top: 10px;
+}
+
+div.tabBoxes-content-sub table tr td {
+	width: 30%;
+}
