@@ -1,3 +1,16 @@
+/**
+ * 共通
+ */
+.none {
+	display: none;
+}
+.ft-bold {
+	font-weight: bold;
+}
+
+/**
+ * ナビゲーション
+ */
 nav {
 	width: 60%;
 	border: #ddd 1px solid;
@@ -34,7 +47,9 @@ nav li:hover{
 	border-bottom: 3px solid #F0E475;
 }
 
-
+/**
+ * コンテンツ
+ */
 div#tabBoxes {
 	width: 60%; /*必要な幅に設定*/
 	margin: auto; /*ブラウザ中央に配置*/
@@ -63,7 +78,7 @@ div.tabBoxes-header div.tabBoxes-header-titlebox {
 } /* ボックス右 */
 
 div.tabBoxes-content-sub table {
-	width: 60%;
+	width: 80%;
 	padding-top: 10px;
 }
 
